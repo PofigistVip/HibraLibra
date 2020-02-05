@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pofigist.hibraLibra2.controllers.MainController">
+   <children>
+      <AnchorPane maxHeight="80.0" maxWidth="1.7976931348623157E308" prefHeight="80.0" prefWidth="800.0" style="-fx-background-color: #aaaaaa;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="HibraLibra" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="199.0" layoutY="9.0" mnemonicParsing="false" onAction="#toLibrariesList" prefHeight="31.0" prefWidth="160.0" text="Библиотеки" AnchorPane.rightAnchor="441.0" AnchorPane.topAnchor="9.0" />
+            <Button layoutX="438.0" layoutY="9.0" mnemonicParsing="false" onAction="#toBooksList" prefHeight="31.0" prefWidth="112.0" text="Книги" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="9.0" />
+            <Button layoutX="626.0" layoutY="9.0" mnemonicParsing="false" onAction="#toReadersList" prefHeight="31.0" prefWidth="160.0" text="Читатели" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="9.0" />
+            <Button fx:id="toLibBtn" disable="true" layoutX="199.0" layoutY="45.0" mnemonicParsing="false" onAction="#toSelectedLibrary" prefHeight="31.0" prefWidth="589.0" text="Библиотека не выбрана" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="45.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="content" layoutY="80.0" prefHeight="439.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,7 @@
+com\pofigist\hibraLibra2\controllers\LibrariesController.class
+com\pofigist\hibraLibra2\controllers\MainController.class
+com\pofigist\hibraLibra2\model\Model.class
+module-info.class
+com\pofigist\hibraLibra2\App.class
+com\pofigist\hibraLibra2\entities\Library.class
+com\pofigist\hibraLibra2\model\HibernateUtil.class

@@ -1,0 +1,2 @@
+# HibraLibra
+Hibernate + JavaFx project
